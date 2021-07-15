@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.titre{
+    margin-top: 25px;
+}
+
+.liens{
+    display: flex;
+    /* position: fixed; */
+    /* background-color: rgba(0,0,0,0.1); */
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25px;
+   
+}
+
+.liens a{
+    cursor: pointer;
+    /* color: inherit;
+    text-decoration: inherit; */
+}
+
+#home_blabla{
+    margin-top: 100px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+}
